@@ -1,5 +1,9 @@
+#################################################################################################################
+#This Script will generate a synthetic transaction and find the round trip of user request to IBM CP4D
+#Author - rraghavan
 # Xpath and CSS element are for Welcome string within the CPD portal
 # Script will initiate a login
+#################################################################################################################
 from selenium import webdriver
 import requests
 import time
